@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CCB Fashion - Contato</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            color: #222;
+        }
+
+        /* CABEÇALHO */
+
+        header {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-bottom: 4px solid #c9a227;
+        }
+
+        header h1 {
+            font-size: 38px;
+        }
+
+        header p {
+            margin-top: 10px;
+            color: #d4af37;
+        }
+
+        /* VOLTAR */
+
+        .voltar {
+            display: inline-block;
+            margin: 25px;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .voltar:hover {
+            color: #c9a227;
+        }
+
+        /* AJUDA */
+
+        .ajuda {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .ajuda h2 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+
+        .ajuda > p {
+            color: #555;
+            margin-bottom: 25px;
+        }
+
+        .contatos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .contato-item {
+            background-color: white;
+            width: 250px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            transition: 0.3s;
+        }
+
+        .contato-item:hover {
+            transform: translateY(-5px);
+            border: 2px solid #c9a227;
+        }
+
+        .contato-item h3 {
+            margin-bottom: 10px;
+            color: #c9a227;
+        }
+
+        .contato-item a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contato-item a:hover {
+            color: #c9a227;
+        }
+
+        /* FORMULÁRIO */
+
+        .contato {
+            max-width: 600px;
+            margin: 20px auto 40px;
+            background-color: white;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+        }
+
+        .contato h2 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 30px;
+        }
+
+        .contato > p {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #555;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+
+        textarea {
+            height: 120px;
+            resize: none;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 14px;
+            background-color: #000000;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #c9a227;
+            color: #000;
+        }
+
+        /* RODAPÉ */
+
+        footer {
+            padding: 25px;
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            border-top: 4px solid #c9a227;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+
+    <header>
+
+        <h1>CCB Fashion</h1>
+
+        <p>Entre em contato conosco</p>
+
+    </header>
+
+
+    <!-- VOLTAR -->
+
+    <a href="index.html" class="voltar">
+        ← Voltar para a página inicial
+    </a>
+
+
+    <!-- AJUDA -->
+
+    <section class="ajuda">
+
+        <h2>Precisa de ajuda?</h2>
+
+        <p>
+            Entre em contato conosco pelos nossos canais:
+        </p>
+
+        <div class="contatos">
+
+
+            <!-- WHATSAPP -->
+
+            <div class="contato-item">
+
+                <h3>📱 WhatsApp</h3>
+
+                <a
+                    href="https://wa.me/5511999999999"
+                    target="_blank"
+                >
+                    (11) 99999-9999
+                </a>
+
+            </div>
+
+
+            <!-- INSTAGRAM -->
+
+            <div class="contato-item">
+
+                <h3>📷 Instagram</h3>
+
+                <a
+                    href="https://www.instagram.com/ccbfashion/"
+                    target="_blank"
+                >
+                    @ccbfashion
+                </a>
+
+            </div>
+
+
+            <!-- EMAIL -->
+
+            <div class="contato-item">
+
+                <h3>📧 E-mail</h3>
+
+                <a
+                    href="mailto:contato@ccbfashion.com"
+                >
+                    contato@ccbfashion.com
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FALE CONOSCO -->
+
+    <section class="contato">
+
+        <h2>Fale Conosco</h2>
+
+        <p>
+            Preencha o formulário abaixo para enviar uma mensagem.
+        </p>
+
+        <form>
+
+            <label for="nome">
+                Nome:
+            </label>
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Digite seu nome"
+            >
+
+
+            <label for="email">
+                E-mail:
+            </label>
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Digite seu e-mail"
+            >
+
+
+            <label for="telefone">
+                Telefone:
+            </label>
+
+            <input
+                type="tel"
+                id="telefone"
+                placeholder="Digite seu telefone"
+            >
+
+
+            <label for="mensagem">
+                Mensagem:
+            </label>
+
+            <textarea
+                id="mensagem"
+                placeholder="Digite sua mensagem"
+            ></textarea>
+
+
+            <button type="submit">
+                Enviar mensagem
+            </button>
+
+        </form>
+
+    </section>
+
+
+    <!-- RODAPÉ -->
+
+    <footer>
+
+        <p>
+            © 2026 CCB Fashion - Moda Feminina e Masculina
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
