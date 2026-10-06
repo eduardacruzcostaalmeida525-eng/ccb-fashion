@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CCB Fashion</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            color: #222;
+        }
+
+        /* CABEÇALHO */
+        header {
+            background-color: #000000;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-bottom: 4px solid #c9a227;
+        }
+
+        header h1 {
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #d4af37;
+        }
+
+        /* APRESENTAÇÃO */
+        .inicio {
+            text-align: center;
+            padding: 50px 20px 30px;
+        }
+
+        .inicio h2 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #111111;
+        }
+
+        .inicio p {
+            max-width: 750px;
+            margin: auto;
+            line-height: 1.7;
+            font-size: 18px;
+            color: #444444;
+        }
+
+        /* CATEGORIAS */
+        .categorias {
+            display: flex;
+            justify-content: center;
+            gap: 35px;
+            padding: 30px 20px;
+            flex-wrap: wrap;
+        }
+
+        .categoria {
+            background-color: #ffffff;
+            width: 350px;
+            border-radius: 15px;
+            overflow: hidden;
+
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.18);
+
+            text-align: center;
+
+            border: 2px solid transparent;
+
+            transition: 0.3s;
+        }
+
+        .categoria:hover {
+            transform: translateY(-8px);
+            border: 2px solid #c9a227;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+        }
+
+        .categoria img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+
+        .categoria h3 {
+            font-size: 25px;
+            margin: 20px 0 10px;
+            color: #111111;
+        }
+
+        .categoria p {
+            padding: 0 20px 25px;
+            line-height: 1.5;
+            color: #555555;
+        }
+
+        /* BOTÃO */
+        .botao {
+            display: inline-block;
+
+            margin-top: 25px;
+            margin-bottom: 50px;
+
+            padding: 14px 35px;
+
+            background-color: #c9a227;
+            color: #000000;
+
+            text-decoration: none;
+            border-radius: 8px;
+
+            font-size: 17px;
+            font-weight: bold;
+
+            transition: 0.3s;
+        }
+
+        .botao:hover {
+            background-color: #000000;
+            color: #d4af37;
+        }
+
+        /* RODAPÉ */
+        footer {
+            margin-top: 20px;
+            padding: 25px;
+
+            background-color: #000000;
+            color: white;
+
+            text-align: center;
+
+            border-top: 4px solid #c9a227;
+        }
+
+        footer p {
+            font-size: 15px;
+        }
+
+        /* CELULAR */
+        @media (max-width: 700px) {
+
+            header h1 {
+                font-size: 30px;
+            }
+
+            header p {
+                font-size: 16px;
+            }
+
+            .inicio h2 {
+                font-size: 27px;
+            }
+
+            .inicio p {
+                font-size: 16px;
+            }
+
+            .categoria {
+                width: 90%;
+            }
+
+            .categoria img {
+                height: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+
+        <h1>CCB Fashion</h1>
+
+        <p>
+            Moda feminina e masculina para todos os estilos
+        </p>
+
+    </header>
+
+
+    <!-- APRESENTAÇÃO -->
+    <section class="inicio">
+
+        <h2>Bem-vindo à CCB Fashion</h2>
+
+        <p>
+            A CCB Fashion é uma loja de roupas que busca oferecer
+            estilo, qualidade e variedade para o público feminino
+            e masculino. Nosso objetivo é ajudar cada cliente a
+            encontrar peças que combinem com sua personalidade
+            e seu estilo, para que eles se sintam mais reluzente
+            e com a autoestima la em cima.
+            siga nossa conta nas redes sociais @ccbfashion001_
+        </p>
+
+    </section>
+
+
+    <!-- CATEGORIAS -->
+<section class="categorias">
+
+    <a href="feminino.html" class="categoria">
+        <img src="images (1).jfif" alt="Roupas femininas">
+
+        <h3>Moda Feminina</h3>
+
+        <p>
+            Encontre peças modernas e versáteis para
+            as apaixonadas em vestidos, saias e outros.
+            Oferecemos conforto e qualidade.
+        </p>
+    </a>
+
+
+    <a href="masculino.html" class="categoria">
+        <img src="images (2).jfif" alt="Roupas masculinas">
+
+        <h3>Moda Masculina</h3>
+
+        <p>
+            Peças que combinam conforto, estilo e
+            personalidade para ocasiões especiais.
+        </p>
+    </a>
+
+</section>
+
+
+<!-- BOTÃO -->
+<div style="text-align: center;">
+    <a href="cadastro.html" class="botao">
+        Entrar em contato
+    </a>
+</div>
+
+
+<!-- RODAPÉ -->
+<footer>
+    <p>© 2026 CCB Fashion - Moda Feminina e Masculina</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CCB Fashion - Moda Feminina</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eeeeee;
+            color: #222;
+        }
+
+        header {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            border-bottom: 4px solid #c9a227;
+        }
+
+        header h1 {
+            font-size: 38px;
+        }
+
+        header p {
+            margin-top: 10px;
+            color: #d4af37;
+        }
+
+        .voltar {
+            display: inline-block;
+            margin: 25px;
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .titulo {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .titulo h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .produtos {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            padding: 30px;
+        }
+
+        .produto {
+            background-color: white;
+            width: 250px;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .produto:hover {
+            transform: translateY(-8px);
+            border: 2px solid #c9a227;
+        }
+
+        .produto img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .produto h3 {
+            margin: 15px 0 8px;
+        }
+
+        .produto p {
+            padding: 0 15px 20px;
+            color: #555;
+        }
+
+        .preco {
+            font-size: 20px;
+            font-weight: bold;
+            color: #c9a227 !important;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 25px;
+            background-color: #000;
+            color: white;
+            text-align: center;
+            border-top: 4px solid #c9a227;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>CCB Fashion</h1>
+
+        <p>Moda Feminina</p>
+
+    </header>
+
+    <a href="index.html" class="voltar">
+        ← Voltar para a página inicial
+    </a>
+
+    <section class="titulo">
+
+        <h2>Modelos Femininos</h2>
+
+        <p>
+            Confira algumas das opções disponíveis na CCB Fashion.
+        </p>
+
+    </section>
+
+
+    <section class="produtos">
+
+        <div class="produto">
+
+            <img src="vestidomidi">
+
+            <h3>Vestido Elegante</h3>
+
+            <p>
+                Vestido moderno e confortável.
+            </p>
+
+            <p class="preco">
+                R$ 89,90
+            </p>
+
+        </div>
+
+
+        <div class="produto">
+
+            <img src="saiatule" alt="Saia feminina">
+
+            <h3>Saia Fashion</h3>
+
+            <p>
+                Modelo moderno para diferentes ocasiões.
+            </p>
+
+            <p class="preco">
+                R$ 69,90
+            </p>
+
+        </div>
+
+
+        <div class="produto">
+
+            <img src="bodyfeminino" alt="Body feminina">
+
+            <h3>body feminina</h3>
+
+            <p>
+                Conforto e estilo para o dia a dia.
+            </p>
+
+            <p class="preco">
+                R$ 39,90
+            </p>
+
+        </div>
+
+
+        <div class="produto">
+
+            <img src="conjuntomid" alt="conjunto mid">
+
+            <h3>Conjunto mid</h3>
+
+            <p>
+                Modelo versátil e confortável.
+            </p>
+
+            <p class="preco">
+                R$ 99,90
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 CCB Fashion - Moda Feminina e Masculina
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
